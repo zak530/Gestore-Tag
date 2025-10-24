@@ -31,7 +31,7 @@ public class Tag{
 
 
     public String toString(){
-        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + ", posizione: "+ this.posizione + "]";
+        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + ", posizione: " + this.posizione + "]";
     }
 
 }

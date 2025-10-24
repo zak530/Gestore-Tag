@@ -31,6 +31,7 @@ public class Test{
         Tag portafoglio = new Tag();
         portafoglio.setDescrizione("portafoglio nero contenente 100$");
         portafoglio.setPosizione(3.4,2,5.5);
+        c.vicini()
         c.aggiungiAggiorna(portafoglio);
 
 
