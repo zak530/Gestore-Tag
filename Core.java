@@ -30,7 +30,6 @@ public class Core{
             size--;
         }
     }
-
     public Tag[] vicini(float distanza){
         Tag[] vicini = new Tag[size];
         for(int i = 0; i < size; i++){
