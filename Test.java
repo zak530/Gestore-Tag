@@ -25,6 +25,10 @@ public class Test{
         telefono.setDescrizione("Iphone 19");
         c.aggiungiAggiorna(telefono);
 
+        Tag portafoglio = new Tag();
+        portafoglio.setDescrizione("portafoglio nero contenente 100$");
+        c.aggiungiAggiorna(portafoglio);
+        
         System.out.println(c);
 
         System.out.println("Finito!");
