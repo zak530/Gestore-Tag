@@ -25,8 +25,10 @@ public class Tag{
         return this.posizione;
     }
 
-    public void setPosizione(double x, double y, double z){
-        this.posizione = posizione;
+    public Posizione setPosizione(double x, double y, double z){
+
+
+        return null;
     }
 
 
