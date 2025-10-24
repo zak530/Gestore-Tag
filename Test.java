@@ -5,8 +5,10 @@ public class Test{
 
         Tag borsa = new Tag();
         borsa.setDescrizione("Borsa");
+        borsa.setPosizione(3.4,2,5.5);
         Tag chiavi = new Tag();
         chiavi.setDescrizione("Chiavi");
+        chiavi.setPosizione(3.4,2,5.5);
 
         
         c.aggiungiAggiorna(borsa);
@@ -23,7 +25,15 @@ public class Test{
 
         Tag telefono = new Tag();
         telefono.setDescrizione("Iphone 19");
+        telefono.setPosizione(3.4,2,5.5);
         c.aggiungiAggiorna(telefono);
+
+        Tag portafoglio = new Tag();
+        portafoglio.setDescrizione("portafoglio nero contenente 100$");
+        portafoglio.setPosizione(3.4,2,5.5);
+        c.aggiungiAggiorna(portafoglio);
+
+
 
         System.out.println(c);
 

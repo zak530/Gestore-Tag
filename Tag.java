@@ -25,8 +25,13 @@ public class Tag{
         return this.posizione;
     }
 
+    public void setPosizione(double x, double y, double z){
+        this.posizione = posizione;
+    }
+
+
     public String toString(){
-        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + "]";
+        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + ", posizione: "+ this.posizione + "]";
     }
 
 }
